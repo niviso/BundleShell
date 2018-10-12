@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i');
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: lighter;
+
+}
+
+body {
+    background-image: url("../resources/background.jpg");
+    background-size: cover;
+
+}
+
+.default {
+    .wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    .image {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+
+    .text {
+        line-height: 1.2em;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .txt-left {
+        text-align: left;
+    }
+
+    .txt-right {
+        text-align: right;
+    }
+
+    .txt-center {
+        text-align: center;
+    }
+
+    .float-left {
+        float: left;
+    }
+
+    .float-right {
+        float: right;
+    }
+
+    .float-center {
+        float: center;
+    }
+
+    .w-1 {
+        width: 10%;
+    }
+
+    .w-2 {
+        width: 20%;
+    }
+
+    .w-2 {
+        width: 20%;
+    }
+
+    .w-3 {
+        width: 30%;
+    }
+
+    .w-4 {
+        width: 40%;
+    }
+
+    .w-5 {
+        width: 50%;
+    }
+
+    .w-6 {
+        width: 60%;
+    }
+
+    .w-7 {
+        width: 70%;
+    }
+
+    .w-8 {
+        width: 80%;
+    }
+
+    .w-9 {
+        width: 90%;
+    }
+
+    .w-10 {
+        width: 100%;
+    }
+
+}
